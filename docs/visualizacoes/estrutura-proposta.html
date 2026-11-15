@@ -1,0 +1,132 @@
+<style>
+#repo-map {color:var(--foreground);font-family:var(--font-sans);}
+#repo-map .layout {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px;margin-top:16px;align-items:start;}
+#repo-map .branch {border-left:1px solid var(--border);padding-left:16px;margin-left:6px;}
+#repo-map .modules {display:flex;flex-direction:column;align-items:start;gap:6px;margin:10px 0;}
+#repo-map .path {font-family:var(--font-mono);overflow-wrap:anywhere;}
+#repo-map .secondary {color:var(--muted-foreground);}
+#repo-map .label {font-weight:500;}
+#repo-map details {margin:10px 0;}
+#repo-map summary {padding:5px 0;}
+#repo-map ul {padding-left:20px;margin:8px 0;}
+#repo-map li {margin:7px 0;}
+#repo-map pre {white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--font-mono);background:var(--code-background);padding:16px;border-radius:var(--radius);margin:12px 0;}
+#repo-map .selected {border-top:2px solid var(--border);padding-top:16px;}
+#repo-map .note {margin-top:16px;}
+#repo-map .module-button {display:block;font:inherit;white-space:normal;overflow-wrap:anywhere;text-align:left;background:transparent;color:var(--foreground);border:0;border-radius:var(--radius);padding:6px 10px;}
+#repo-map .module-button[aria-pressed="true"] {background:var(--primary);color:var(--primary-foreground);}
+#repo-map .module-button:hover {background:var(--secondary);color:var(--secondary-foreground);}
+@media(pointer:coarse) {#repo-map .module-button, #repo-map summary {min-height:44px;}}
+#repo-map .line {margin-top:10px;}
+#repo-map [hidden] {display:none;}
+@media(max-width:560px) {#repo-map .layout{grid-template-columns:minmax(0,1fr);gap:16px;} }
+</style>
+<div id="repo-map">
+  <div class="secondary">Proposta de organização · pastas ainda não migradas</div>
+  <div class="path label line">sensoriamento-remoto-python-estudo/</div>
+  <div class="layout">
+    <div>
+      <div class="path label">conteudo/</div>
+      <div class="branch">
+        <div class="modules" role="group" aria-label="Escolha um módulo para explorar">
+          <button type="button" class="module-button cursor-interaction" data-module="fundamentos" aria-pressed="false">fundamentos/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="matematica" aria-pressed="true">matematica/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="sensores" aria-pressed="false">sensores/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="pre-processamento" aria-pressed="false">pre-processamento/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="analise-de-imagens" aria-pressed="false">analise-de-imagens/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="classificacao" aria-pressed="false">classificacao/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="series-temporais" aria-pressed="false">series-temporais/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="radar-sar" aria-pressed="false">radar-sar/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="lidar" aria-pressed="false">lidar/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="hiperespectral" aria-pressed="false">hiperespectral/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="termal" aria-pressed="false">termal/</button>
+          <button type="button" class="module-button cursor-interaction" data-module="aplicacoes" aria-pressed="false">aplicacoes/</button>
+        </div>
+      </div>
+      <details>
+        <summary class="path cursor-interaction">projetos/</summary>
+        <div class="branch">
+          <div class="path">pca-e-agrupamento/</div>
+          <div class="secondary line">Destino sugerido para o piloto de mestrado/, após revisão didática e de execução.</div>
+          <div class="secondary line">Cada projeto reúne pergunta, dados, notebook e avaliação.</div>
+        </div>
+      </details>
+      <details>
+        <summary class="path cursor-interaction">referencias/</summary>
+        <div class="branch path">README.md<br>canty.md<br>inpe.md<br>matematica.md<br>manifesto-inpe.json</div>
+        <div class="secondary line">Bibliografia, páginas e links originais. Novos livros entram por referência, sem determinar a estrutura das aulas.</div>
+      </details>
+      <details>
+        <summary class="path cursor-interaction">data/</summary>
+        <div class="branch path">README.md<br>exemplos/</div>
+        <div class="secondary line">Dados compartilhados, origem, licença e instruções de obtenção. ASTER deixa de depender da pasta do Capítulo 1.</div>
+      </details>
+      <details>
+        <summary class="path cursor-interaction">Código e manutenção</summary>
+        <div class="branch path">study_utils/<br>scripts/<br>legado/canty/<br>docs/decisoes/<br>docs/pendencias.md<br>tests/</div>
+        <div class="secondary line">Utilitários próprios separados do código de referência de auxil/. Verificações de caminhos e utilitários conforme necessário.</div>
+      </details>
+      <details>
+        <summary class="path cursor-interaction">Arquivos da raiz</summary>
+        <div class="branch path">README.md<br>trilha-de-aprendizagem.md<br>CONTRIBUTING.md<br>CHANGELOG.md<br>environment.yml<br>requirements.txt<br>.gitignore</div>
+        <div class="secondary line">Entrada, sequência de estudo, contribuição e ambiente. PDFs públicos ou privados ficam fora do Git.</div>
+      </details>
+    </div>
+    <div class="selected" aria-live="polite" aria-atomic="true">
+      <div id="module-state" class="secondary">A ampliar a partir dos apêndices</div>
+      <h3 id="module-title">Matemática</h3>
+      <div id="module-path" class="path line">conteudo/matematica/</div>
+      <pre id="module-tree">README.md
+aulas/
+  01-vetores-e-matrizes.md
+  02-produtos-e-projecoes.md
+  03-autovalores-e-svd.md
+  04-probabilidade-e-estatistica.md
+  05-otimizacao.md
+notebooks/
+exercicios/
+figuras/</pre>
+      <div class="label">Material de origem</div>
+      <div id="module-origin" class="line">Apêndices A/B e fundamentos matemáticos hoje distribuídos nos capítulos.</div>
+      <div class="label note">Referências por assunto</div>
+      <div id="module-refs" class="line">Canty + novos livros de álgebra linear, probabilidade e otimização. Cada aula cita as fontes e seções usadas.</div>
+      <div class="label note">Ligação com o restante</div>
+      <div id="module-links" class="line">PCA remete a projeções e autovalores; classificação remete a probabilidade e otimização. A matemática pode ser estudada em sequência ou consultada durante as aplicações.</div>
+    </div>
+  </div>
+</div>
+<script>
+(() => {
+const root = document.getElementById('repo-map');
+const modules = {
+'fundamentos': {title:'Fundamentos',state:'Adaptar as seis aulas existentes',lessons:['01-da-paisagem-ao-numero.md','02-energia-e-alvos.md','03-resolucoes-e-observacao.md','04-interpretacao-e-cartografia.md'],origin:'fundamentos/ e introduções físicas dos capítulos. As seis leituras atuais podem ser preservadas como aulas separadas.',refs:'Apostilas do INPE, Canty e novas referências de fundamentos.',links:'Primeira entrada do percurso. Conecta interpretação física a sensores, matemática e práticas com dados.'},
+'matematica': {title:'Matemática',state:'A ampliar a partir dos apêndices',lessons:['01-vetores-e-matrizes.md','02-produtos-e-projecoes.md','03-autovalores-e-svd.md','04-probabilidade-e-estatistica.md','05-otimizacao.md'],origin:'Apêndices A/B e fundamentos matemáticos hoje distribuídos nos capítulos.',refs:'Canty + novos livros de álgebra linear, probabilidade e otimização. Cada aula cita as fontes e seções usadas.',links:'PCA remete a projeções e autovalores; classificação remete a probabilidade e otimização. A matemática pode ser estudada em sequência ou consultada durante as aplicações.'},
+'sensores': {title:'Sensores e aquisição',state:'Ampliar as introduções existentes',lessons:['01-plataformas-e-orbitas.md','02-resolucao-e-resposta-do-sensor.md','03-produtos-e-metadados.md','04-escolha-dos-dados.md'],origin:'Aulas de fundamentos e apostilas do INPE. A sequência prática de metadados ainda precisa ser desenvolvida.',refs:'INPE e documentação das missões e dos produtos usados em cada prática.',links:'Prepara a escolha dos dados. Sensores específicos ganham aprofundamento nos módulos SAR, LiDAR, hiperespectral e termal.'},
+'pre-processamento': {title:'Pré-processamento',state:'Adaptar parte dos capítulos 1 e 5',lessons:['01-leitura-e-mascaras.md','02-calibracao-e-atmosfera.md','03-registro-e-reamostragem.md','04-relevo-e-geometria.md'],origin:'Capítulo 5, leitura de rasters do Capítulo 1 e utilitários compartilhados. Algumas correções ainda precisam de práticas reais.',refs:'Canty, INPE e documentação específica dos produtos.',links:'Entrega entradas comparáveis para classificação, análise de imagens e séries temporais. Realce visual permanece distinguido de correção física.'},
+'analise-de-imagens': {title:'Análise de imagens',state:'Adaptar os capítulos 2, 3, 4 e parte do 5',lessons:['01-estatistica-por-banda.md','02-histogramas-e-realce.md','03-filtros-e-vizinhanca.md','04-pca-e-mnf.md','05-fourier-e-wavelets.md'],origin:'Material de estatística, transformações, filtros e realce já presente no repositório.',refs:'Canty e referências adicionais de processamento de sinais e imagens.',links:'Usa a base matemática sem repetir suas derivações. Serve de preparação para classificação, mudança e projetos integrados.'},
+'classificacao': {title:'Classificação e aprendizado',state:'Adaptar os capítulos 6, 7 e 8',lessons:['01-classes-e-amostras.md','02-metodos-supervisionados.md','03-agrupamento.md','04-redes-neurais.md','05-validacao-e-erros.md'],origin:'Capítulos 6–8 e partes do Apêndice B. Técnicas adicionais podem ampliar a sequência.',refs:'Canty, referências de aprendizado de máquina e evidências usadas para construir os rótulos.',links:'Conecta amostragem, modelos e avaliação. A base matemática sustenta os métodos; projetos mostram aplicações completas.'},
+'series-temporais': {title:'Séries temporais e mudança',state:'Ampliar o Capítulo 9',lessons:['01-datas-e-sazonalidade.md','02-diferenca-entre-imagens.md','03-mad-e-imad.md','04-trajetorias-e-rupturas.md'],origin:'Capítulo 9, simulação existente e explicações de sazonalidade. Séries densas precisam de novas aulas e dados.',refs:'Canty, INPE e fontes específicas dos métodos incorporados depois.',links:'Parte da comparação entre duas datas e avança para trajetórias. Depende de alinhamento, qualidade dos dados e avaliação independente.'},
+'radar-sar': {title:'Radar e SAR',state:'Expandir a nota SAR existente',lessons:['01-espalhamento-e-geometria.md','02-polarizacao-e-speckle.md','03-processamento-sar.md','04-polarimetria-e-interferometria.md'],origin:'Nota SAR do Capítulo 1 e rotinas legadas de referência. Um percurso completo ainda precisa ser desenvolvido.',refs:'Novos livros e fontes técnicas de radar, além do material disponível.',links:'Percurso próprio ligado a física, estatística e geometria. As aplicações podem usar classificação e séries temporais.'},
+'lidar': {title:'LiDAR',state:'Frente a desenvolver',lessons:['01-medicao-de-distancia.md','02-nuvens-de-pontos.md','03-modelos-de-superficie-e-terreno.md','04-estrutura-da-vegetacao.md'],origin:'Sem módulo didático próprio na estrutura atual.',refs:'Referências e documentação de aquisição e processamento a selecionar.',links:'Conecta geometria, nuvens de pontos, relevo e vegetação. Projetos futuros podem integrar LiDAR e imagens.'},
+'hiperespectral': {title:'Hiperespectral',state:'Frente a desenvolver',lessons:['01-espectros-e-bandas.md','02-calibracao-e-qualidade.md','03-mistura-espectral.md','04-identificacao-de-materiais.md'],origin:'Parte da base multiespectral pode ser reutilizada; o percurso específico ainda precisa ser escrito.',refs:'Novas referências de espectroscopia e sensoriamento hiperespectral.',links:'Aprofunda resposta espectral, redução de dimensionalidade e identificação de materiais.'},
+'termal': {title:'Sensoriamento termal',state:'Frente a desenvolver',lessons:['01-emissao-e-emissividade.md','02-radiancia-e-temperatura.md','03-atmosfera-e-recuperacao.md','04-aplicacoes-e-validacao.md'],origin:'Conceitos introdutórios nas aulas de fundamentos, sem sequência própria de recuperação de temperatura.',refs:'Referências de transferência radiativa e documentação dos produtos usados.',links:'Conecta física, atmosfera e avaliação. Temperatura de superfície é distinguida de temperatura do ar nas aplicações.'},
+'aplicacoes': {title:'Aplicações por área',state:'Organizar e ampliar progressivamente',lessons:['vegetacao/','agricultura/','cidades/','agua-e-oceanos/','atmosfera-e-clima/','geologia-e-desastres/'],origin:'Casos das apostilas do INPE e exemplos a desenvolver com outras fontes.',refs:'Várias fontes por aplicação, com bibliografia vinculada às aulas.',links:'Cada área formula perguntas e aponta os métodos necessários. As implementações completas ficam em projetos/, evitando duplicar o código.'}
+};
+function select(key, save) {
+ const item=modules[key]; if(!item)return;
+ root.querySelectorAll('[data-module]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.module===key)));
+ root.querySelector('#module-state').textContent=item.state;
+ root.querySelector('#module-title').textContent=item.title;
+ root.querySelector('#module-path').textContent='conteudo/'+key+'/';
+ const lessons=item.lessons.map(x=>'  '+x).join('\n');
+ root.querySelector('#module-tree').textContent='README.md\naulas/\n'+lessons+'\nnotebooks/\nexercicios/\nfiguras/';
+ root.querySelector('#module-origin').textContent=item.origin;
+ root.querySelector('#module-refs').textContent=item.refs;
+ root.querySelector('#module-links').textContent=item.links;
+ if(save && window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{modulo:key},privateContent:null}).catch(()=>{});
+}
+root.querySelectorAll('[data-module]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.module,true)));
+select(window.openai?.widgetState?.modelContent?.modulo || 'matematica',false);
+window.addEventListener('openai:set_globals',e=>{const key=e.detail?.globals?.widgetState?.modelContent?.modulo;if(key)select(key,false);});
+})();
+</script>

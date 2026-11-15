@@ -1,0 +1,33 @@
+{
+  "livros": [
+    {
+      "titulo": "Álgebra linear",
+      "autores": [
+        "Jerônimo C. Pellegrini"
+      ],
+      "versao": "130, 3 de setembro de 2015",
+      "arquivo_local": "matematica/deleo-ld4.pdf",
+      "url": "https://www.ime.unicamp.br/~deleo/MA327/ld4.pdf",
+      "bytes": 31117189,
+      "paginas_pdf": 562,
+      "sha256": "f93a25ceec1db4fcf2cf23a21b2b2699b8701aabb36fe39a99a2ffddb2d1fb1b",
+      "data_consulta": "2026-11-14"
+    },
+    {
+      "titulo": "Álgebra Linear I, volume 1, módulos 1 e 2",
+      "autores": [
+        "Isabel Lugão Rios",
+        "Luiz Manoel Figueiredo",
+        "Marisa Ortegoza da Cunha"
+      ],
+      "versao": "3ª edição, Fundação CECIERJ / Consórcio CEDERJ",
+      "arquivo_local": "matematica/algebra-linear-i-vol-1-cederj.pdf",
+      "url": "https://www2.ufjf.br/quimicaead/wp-content/uploads/sites/224/2013/05/%C3%81lgebra-Linear-I_Vol-1.pdf",
+      "bytes": 6503875,
+      "paginas_pdf": 148,
+      "sha256": "fb99bc91d622feb1ea0d912a61784c97f384a25150086f22da1a473fe6f8f8c6",
+      "data_consulta": "2026-11-14"
+    }
+  ],
+  "distribuicao": "Somente referências e metadados no Git; PDFs locais ignorados."
+}

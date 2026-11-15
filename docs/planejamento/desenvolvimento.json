@@ -1,0 +1,935 @@
+{
+  "dataBase": "2026-11-14",
+  "capacidadeHorasSemana": 5,
+  "semanasProdutivasAno": 46,
+  "reservaFracao": 0.25,
+  "esforcoBaseHoras": [
+    900,
+    1476
+  ],
+  "esforcoComReservaHoras": [
+    1125,
+    1845
+  ],
+  "projetoLinear": {
+    "id": "P-BRU-14",
+    "url": "https://linear.app/brunommv/project/sensoriamento-remoto-com-python-desenvolvimento-da-referencia-aberta-3e1e8c2dc45d"
+  },
+  "fases": [
+    {
+      "key": "M0",
+      "name": "Base editorial, computacional e matemática",
+      "low": 96,
+      "high": 160,
+      "cumLow": 96,
+      "cumHigh": 160,
+      "dateLow": "2027-05-23",
+      "dateHigh": "2027-09-27",
+      "dateMid": "2027-07-25"
+    },
+    {
+      "key": "M1",
+      "name": "Núcleo de análise de imagens revisado",
+      "low": 164,
+      "high": 276,
+      "cumLow": 260,
+      "cumHigh": 436,
+      "dateLow": "2028-04-11",
+      "dateHigh": "2029-03-26",
+      "dateMid": "2028-10-02"
+    },
+    {
+      "key": "M2",
+      "name": "Física, sensores e avaliação",
+      "low": 136,
+      "high": 216,
+      "cumLow": 396,
+      "cumHigh": 652,
+      "dateLow": "2029-01-05",
+      "dateHigh": "2030-05-27",
+      "dateMid": "2029-09-16"
+    },
+    {
+      "key": "M3",
+      "name": "Especialidades e métodos avançados",
+      "low": 288,
+      "high": 480,
+      "cumLow": 684,
+      "cumHigh": 1132,
+      "dateLow": "2030-07-29",
+      "dateHigh": "2032-12-31",
+      "dateMid": "2031-10-15"
+    },
+    {
+      "key": "M4",
+      "name": "Aplicações integradas por área",
+      "low": 160,
+      "high": 256,
+      "cumLow": 844,
+      "cumHigh": 1388,
+      "dateLow": "2031-06-11",
+      "dateHigh": "2034-05-22",
+      "dateMid": "2032-11-30"
+    },
+    {
+      "key": "M5",
+      "name": "Revisão pública e versão abrangente",
+      "low": 56,
+      "high": 88,
+      "cumLow": 900,
+      "cumHigh": 1476,
+      "dateLow": "2031-09-29",
+      "dateHigh": "2034-11-12",
+      "dateMid": "2033-04-21"
+    }
+  ],
+  "pacotes": [
+    {
+      "key": "infra",
+      "title": "Estabilizar ambiente, caminhos e integração contínua",
+      "low": 16,
+      "high": 24,
+      "phase": "M0",
+      "existing": "",
+      "depends": [],
+      "criteria": [
+        "Executar instalação limpa, quatro testes estruturais e práticas selecionadas em Python 3.11.",
+        "Documentar dependências opcionais GDAL/legado e erros esperados; automatizar links e smoke tests."
+      ],
+      "linear": {
+        "key": "infra",
+        "id": "BRU-198",
+        "title": "Estabilizar ambiente, caminhos e integração contínua",
+        "url": "https://linear.app/brunommv/issue/BRU-198/estabilizar-ambiente-caminhos-e-integracao-continua",
+        "phase": "M0",
+        "low": 16,
+        "high": 24,
+        "depends": []
+      }
+    },
+    {
+      "key": "dados",
+      "title": "Documentar procedência, acesso e qualidade dos dados de exemplo",
+      "low": 20,
+      "high": 32,
+      "phase": "M0",
+      "existing": "",
+      "depends": [],
+      "criteria": [
+        "Recuperar produto, data, bandas, unidade, escala, CRS, NoData e condições de uso do ASTER.",
+        "Oferecer recortes pequenos e obtenção reproduzível sem redistribuir material sem autorização."
+      ],
+      "linear": {
+        "key": "dados",
+        "id": "BRU-199",
+        "title": "Documentar procedência, acesso e qualidade dos dados de exemplo",
+        "url": "https://linear.app/brunommv/issue/BRU-199/documentar-procedencia-acesso-e-qualidade-dos-dados-de-exemplo",
+        "phase": "M0",
+        "low": 20,
+        "high": 32,
+        "depends": []
+      }
+    },
+    {
+      "key": "python",
+      "title": "Produzir percurso de Python e NumPy para iniciantes",
+      "low": 24,
+      "high": 40,
+      "phase": "M0",
+      "existing": "",
+      "depends": [
+        "infra"
+      ],
+      "criteria": [
+        "Explicar ambiente, tipos, funções, listas, arrays, eixos, broadcasting, máscaras e leitura de mensagens de erro.",
+        "Entregar notebook gradual, exercícios comentados e operações de bandas com dados sintéticos."
+      ],
+      "linear": {
+        "key": "python",
+        "id": "BRU-200",
+        "title": "Produzir percurso de Python e NumPy para iniciantes",
+        "url": "https://linear.app/brunommv/issue/BRU-200/produzir-percurso-de-python-e-numpy-para-iniciantes",
+        "phase": "M0",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "infra"
+        ]
+      }
+    },
+    {
+      "key": "math",
+      "title": "Revisar e consolidar o percurso de matemática por tópicos",
+      "low": 20,
+      "high": 36,
+      "phase": "M0",
+      "existing": "",
+      "depends": [
+        "infra"
+      ],
+      "criteria": [
+        "Revisar independentemente álgebra linear, probabilidade, estimação, derivadas e otimização desenvolvidas localmente.",
+        "Conferir fontes, símbolos, exercícios, exemplos executáveis e links para aplicações; não tratar redação por IA como revisão independente."
+      ],
+      "linear": {
+        "key": "math",
+        "id": "BRU-201",
+        "title": "Revisar e consolidar o percurso de matemática por tópicos",
+        "url": "https://linear.app/brunommv/issue/BRU-201/revisar-e-consolidar-o-percurso-de-matematica-por-topicos",
+        "phase": "M0",
+        "low": 20,
+        "high": 36,
+        "depends": [
+          "infra"
+        ]
+      }
+    },
+    {
+      "key": "fundamentos",
+      "title": "Consolidar fundamentos e representação de imagens para iniciantes",
+      "low": 16,
+      "high": 28,
+      "phase": "M0",
+      "existing": "BRU-147",
+      "depends": [
+        "python",
+        "math"
+      ],
+      "criteria": [
+        "Revisar seis leituras iniciais, imagens e matrizes, interpretação e cartografia.",
+        "Integrar a ponte Python/NumPy e exemplos sem exigir livro ou conhecimento prévio; revisar orientações GDAL."
+      ],
+      "linear": {
+        "key": "fundamentos",
+        "id": "BRU-147",
+        "title": "Consolidar fundamentos e representação de imagens para iniciantes",
+        "url": "https://linear.app/brunommv/issue/BRU-147/consolidar-fundamentos-e-representacao-de-imagens-para-iniciantes",
+        "phase": "M0",
+        "low": 16,
+        "high": 28,
+        "depends": [
+          "python",
+          "math"
+        ]
+      }
+    },
+    {
+      "key": "estatistica",
+      "title": "Fechar estatística aplicada de imagens",
+      "low": 16,
+      "high": 28,
+      "phase": "M1",
+      "existing": "BRU-148",
+      "depends": [
+        "math",
+        "dados"
+      ],
+      "criteria": [
+        "Revisar histogramas, estimação, covariância, correlação e efeitos das máscaras.",
+        "Entregar exercícios com gabarito, comparar amostragem e dependência espacial, interpretar unidades e incertezas."
+      ],
+      "linear": {
+        "key": "estatistica",
+        "id": "BRU-148",
+        "title": "Fechar estatística aplicada de imagens",
+        "url": "https://linear.app/brunommv/issue/BRU-148/fechar-estatistica-aplicada-de-imagens",
+        "phase": "M1",
+        "low": 16,
+        "high": 28,
+        "depends": [
+          "math",
+          "dados"
+        ]
+      }
+    },
+    {
+      "key": "transformacoes",
+      "title": "Fechar transformações, PCA, MNF, Fourier e wavelets",
+      "low": 20,
+      "high": 32,
+      "phase": "M1",
+      "existing": "BRU-149",
+      "depends": [
+        "estatistica"
+      ],
+      "criteria": [
+        "Ligar as transformações às projeções e SVD sem duplicar o percurso matemático.",
+        "Verificar reconstrução e ruído, incluir exemplos resolvidos e critérios de escolha com limitações."
+      ],
+      "linear": {
+        "key": "transformacoes",
+        "id": "BRU-149",
+        "title": "Fechar transformações, PCA, MNF, Fourier e wavelets",
+        "url": "https://linear.app/brunommv/issue/BRU-149/fechar-transformacoes-pca-mnf-fourier-e-wavelets",
+        "phase": "M1",
+        "low": 20,
+        "high": 32,
+        "depends": [
+          "estatistica"
+        ]
+      }
+    },
+    {
+      "key": "filtros",
+      "title": "Fechar filtros, kernels e vizinhança",
+      "low": 16,
+      "high": 28,
+      "phase": "M1",
+      "existing": "BRU-150",
+      "depends": [
+        "estatistica"
+      ],
+      "criteria": [
+        "Comparar filtros e efeitos de borda com exemplos sintéticos e raster real.",
+        "Distinguir kernel espacial de kernel de aprendizado, documentar perda de detalhe e hipóteses de ruído."
+      ],
+      "linear": {
+        "key": "filtros",
+        "id": "BRU-150",
+        "title": "Fechar filtros, kernels e vizinhança",
+        "url": "https://linear.app/brunommv/issue/BRU-150/fechar-filtros-kernels-e-vizinhanca",
+        "phase": "M1",
+        "low": 16,
+        "high": 28,
+        "depends": [
+          "estatistica"
+        ]
+      }
+    },
+    {
+      "key": "preprocessamento",
+      "title": "Fechar realce, calibração, correções e registro",
+      "low": 24,
+      "high": 40,
+      "phase": "M1",
+      "existing": "BRU-151",
+      "depends": [
+        "dados",
+        "fundamentos"
+      ],
+      "criteria": [
+        "Revisar realce vs medição e executar práticas de registro com referência.",
+        "Tratar escala, atmosfera, geometria, relevo, reamostragem e máscaras; testar fluxo GDAL em ambiente suportado."
+      ],
+      "linear": {
+        "key": "preprocessamento",
+        "id": "BRU-151",
+        "title": "Fechar realce, calibração, correções e registro",
+        "url": "https://linear.app/brunommv/issue/BRU-151/fechar-realce-calibracao-correcoes-e-registro",
+        "phase": "M1",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "dados",
+          "fundamentos"
+        ]
+      }
+    },
+    {
+      "key": "supervisionada",
+      "title": "Fechar classificação supervisionada com amostras reais",
+      "low": 24,
+      "high": 40,
+      "phase": "M1",
+      "existing": "BRU-152",
+      "depends": [
+        "preprocessamento",
+        "estatistica"
+      ],
+      "criteria": [
+        "Documentar legenda e fonte dos rótulos, separar treino e avaliação espacialmente.",
+        "Entregar baseline e classificador comparados com referência independente; retirar qualquer afirmação de acurácia real derivada de rótulos sintéticos."
+      ],
+      "linear": {
+        "key": "supervisionada",
+        "id": "BRU-152",
+        "title": "Fechar classificação supervisionada com amostras reais",
+        "url": "https://linear.app/brunommv/issue/BRU-152/fechar-classificacao-supervisionada-com-amostras-reais",
+        "phase": "M1",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "preprocessamento",
+          "estatistica"
+        ]
+      }
+    },
+    {
+      "key": "redes",
+      "title": "Fechar redes, treinamento e avaliação de modelos",
+      "low": 24,
+      "high": 40,
+      "phase": "M1",
+      "existing": "BRU-153",
+      "depends": [
+        "supervisionada"
+      ],
+      "criteria": [
+        "Explicar treinamento e regularização, conectar Apêndice B à matemática.",
+        "Documentar seleção sem vazamento, métricas por classe, incerteza e falhas de transferência de domínio."
+      ],
+      "linear": {
+        "key": "redes",
+        "id": "BRU-153",
+        "title": "Fechar redes, treinamento e avaliação de modelos",
+        "url": "https://linear.app/brunommv/issue/BRU-153/fechar-redes-treinamento-e-avaliacao-de-modelos",
+        "phase": "M1",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "supervisionada"
+        ]
+      }
+    },
+    {
+      "key": "agrupamento",
+      "title": "Fechar agrupamento e interpretação dos grupos",
+      "low": 16,
+      "high": 28,
+      "phase": "M1",
+      "existing": "BRU-154",
+      "depends": [
+        "transformacoes"
+      ],
+      "criteria": [
+        "Revisar k-means, GMM, escala, inicialização e estabilidade.",
+        "Conectar o piloto PCA/k-means a evidências de interpretação; distinguir grupo estatístico de classe de cobertura."
+      ],
+      "linear": {
+        "key": "agrupamento",
+        "id": "BRU-154",
+        "title": "Fechar agrupamento e interpretação dos grupos",
+        "url": "https://linear.app/brunommv/issue/BRU-154/fechar-agrupamento-e-interpretacao-dos-grupos",
+        "phase": "M1",
+        "low": 16,
+        "high": 28,
+        "depends": [
+          "transformacoes"
+        ]
+      }
+    },
+    {
+      "key": "mudanca",
+      "title": "Fechar comparação bitemporal e detecção de mudança",
+      "low": 24,
+      "high": 40,
+      "phase": "M1",
+      "existing": "BRU-155",
+      "depends": [
+        "preprocessamento",
+        "transformacoes"
+      ],
+      "criteria": [
+        "Entregar par de imagens reais alinhadas e diferença/PCA/MAD-iMAD com máscaras.",
+        "Avaliar falsos alarmes, sazonalidade e referência temporal independente; manter simulação identificada."
+      ],
+      "linear": {
+        "key": "mudanca",
+        "id": "BRU-155",
+        "title": "Fechar comparação bitemporal e detecção de mudança",
+        "url": "https://linear.app/brunommv/issue/BRU-155/fechar-comparacao-bitemporal-e-deteccao-de-mudanca",
+        "phase": "M1",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "preprocessamento",
+          "transformacoes"
+        ]
+      }
+    },
+    {
+      "key": "sensores",
+      "title": "Desenvolver sensores, órbitas, produtos e cartografia prática",
+      "low": 32,
+      "high": 48,
+      "phase": "M2",
+      "existing": "",
+      "depends": [
+        "fundamentos",
+        "dados"
+      ],
+      "criteria": [
+        "Cobrir plataformas orbitais, aéreas, drones e campo, resoluções e geometria de aquisição.",
+        "Inspecionar metadados, CRS, escalas e catálogo com referências oficiais; comparar decisão de sensor por pergunta."
+      ],
+      "linear": {
+        "key": "sensores",
+        "id": "BRU-202",
+        "title": "Desenvolver sensores, órbitas, produtos e cartografia prática",
+        "url": "https://linear.app/brunommv/issue/BRU-202/desenvolver-sensores-orbitas-produtos-e-cartografia-pratica",
+        "phase": "M2",
+        "low": 32,
+        "high": 48,
+        "depends": [
+          "fundamentos",
+          "dados"
+        ]
+      }
+    },
+    {
+      "key": "fisica",
+      "title": "Desenvolver transferência radiativa e fundamentos físicos avançados",
+      "low": 48,
+      "high": 80,
+      "phase": "M2",
+      "existing": "",
+      "depends": [
+        "math",
+        "sensores"
+      ],
+      "criteria": [
+        "Explicar radiometria, reflexão/transmissão/emissão, atmosfera, BRDF, emissividade e modelo direto/inverso.",
+        "Entregar contas e experimentos graduais e discutir propagação de incerteza sem apresentar correção como verdade exata."
+      ],
+      "linear": {
+        "key": "fisica",
+        "id": "BRU-203",
+        "title": "Desenvolver transferência radiativa e fundamentos físicos avançados",
+        "url": "https://linear.app/brunommv/issue/BRU-203/desenvolver-transferencia-radiativa-e-fundamentos-fisicos-avancados",
+        "phase": "M2",
+        "low": 48,
+        "high": 80,
+        "depends": [
+          "math",
+          "sensores"
+        ]
+      }
+    },
+    {
+      "key": "avaliacao",
+      "title": "Desenvolver amostragem, validação e propagação de incerteza",
+      "low": 32,
+      "high": 48,
+      "phase": "M2",
+      "existing": "",
+      "depends": [
+        "estatistica",
+        "supervisionada"
+      ],
+      "criteria": [
+        "Cobrir desenho amostral, referência independente, avaliação espacial/temporal e estimativas de área.",
+        "Entregar projeto de avaliação com intervalos e análise de erros; separar desempenho computacional de evidência científica."
+      ],
+      "linear": {
+        "key": "avaliacao",
+        "id": "BRU-204",
+        "title": "Desenvolver amostragem, validação e propagação de incerteza",
+        "url": "https://linear.app/brunommv/issue/BRU-204/desenvolver-amostragem-validacao-e-propagacao-de-incerteza",
+        "phase": "M2",
+        "low": 32,
+        "high": 48,
+        "depends": [
+          "estatistica",
+          "supervisionada"
+        ]
+      }
+    },
+    {
+      "key": "computacao",
+      "title": "Desenvolver SIG, catálogos, nuvem e processamento escalável",
+      "low": 24,
+      "high": 40,
+      "phase": "M2",
+      "existing": "",
+      "depends": [
+        "sensores",
+        "infra"
+      ],
+      "criteria": [
+        "Cobrir raster/vetor, formatos, blocos, catálogos/STAC e execução local/nuvem.",
+        "Entregar exemplo pequeno sem conta obrigatória para o núcleo e documentar custos, limites e alternativa local."
+      ],
+      "linear": {
+        "key": "computacao",
+        "id": "BRU-205",
+        "title": "Desenvolver SIG, catálogos, nuvem e processamento escalável",
+        "url": "https://linear.app/brunommv/issue/BRU-205/desenvolver-sig-catalogos-nuvem-e-processamento-escalavel",
+        "phase": "M2",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "sensores",
+          "infra"
+        ]
+      }
+    },
+    {
+      "key": "sar",
+      "title": "Desenvolver percurso completo de radar e SAR",
+      "low": 64,
+      "high": 112,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "fisica",
+        "filtros",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir espalhamento, geometria, calibração, speckle, polarização e processamento.",
+        "Acrescentar polarimetria, coerência/interferometria e mudança, com casos reproduzíveis e limites de interpretação."
+      ],
+      "linear": {
+        "key": "sar",
+        "id": "BRU-206",
+        "title": "Desenvolver percurso completo de radar e SAR",
+        "url": "https://linear.app/brunommv/issue/BRU-206/desenvolver-percurso-completo-de-radar-e-sar",
+        "phase": "M3",
+        "low": 64,
+        "high": 112,
+        "depends": [
+          "fisica",
+          "filtros",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "lidar",
+      "title": "Desenvolver percurso de LiDAR e nuvens de pontos",
+      "low": 48,
+      "high": 80,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "sensores",
+        "math",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir aquisição, retornos, qualidade, classificação de pontos, terreno/superfície e estrutura da vegetação.",
+        "Entregar recorte pequeno, métricas e validação; distinguir altura observada e referência do terreno."
+      ],
+      "linear": {
+        "key": "lidar",
+        "id": "BRU-207",
+        "title": "Desenvolver percurso de LiDAR e nuvens de pontos",
+        "url": "https://linear.app/brunommv/issue/BRU-207/desenvolver-percurso-de-lidar-e-nuvens-de-pontos",
+        "phase": "M3",
+        "low": 48,
+        "high": 80,
+        "depends": [
+          "sensores",
+          "math",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "hiper",
+      "title": "Desenvolver percurso hiperespectral",
+      "low": 48,
+      "high": 80,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "fisica",
+        "transformacoes",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir resposta espectral, calibração, bandas problemáticas, mistura e identificação de materiais.",
+        "Entregar um caso com espectros de referência, validação e análise de ambiguidade."
+      ],
+      "linear": {
+        "key": "hiper",
+        "id": "BRU-208",
+        "title": "Desenvolver percurso hiperespectral",
+        "url": "https://linear.app/brunommv/issue/BRU-208/desenvolver-percurso-hiperespectral",
+        "phase": "M3",
+        "low": 48,
+        "high": 80,
+        "depends": [
+          "fisica",
+          "transformacoes",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "termal",
+      "title": "Desenvolver percurso termal e recuperação de temperatura",
+      "low": 48,
+      "high": 80,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "fisica",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir radiância, emissão, emissividade, atmosfera e recuperação de temperatura.",
+        "Entregar caso validado e distinguir temperatura de superfície e do ar; registrar resolução e incerteza."
+      ],
+      "linear": {
+        "key": "termal",
+        "id": "BRU-209",
+        "title": "Desenvolver percurso termal e recuperação de temperatura",
+        "url": "https://linear.app/brunommv/issue/BRU-209/desenvolver-percurso-termal-e-recuperacao-de-temperatura",
+        "phase": "M3",
+        "low": 48,
+        "high": 80,
+        "depends": [
+          "fisica",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "series",
+      "title": "Ampliar séries temporais densas e detecção de rupturas",
+      "low": 40,
+      "high": 64,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "mudanca",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir composição, dados faltantes, sazonalidade, tendências e rupturas.",
+        "Comparar baseline e método temporal com referência datada e impedir vazamento temporal."
+      ],
+      "linear": {
+        "key": "series",
+        "id": "BRU-210",
+        "title": "Ampliar séries temporais densas e detecção de rupturas",
+        "url": "https://linear.app/brunommv/issue/BRU-210/ampliar-series-temporais-densas-e-deteccao-de-rupturas",
+        "phase": "M3",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "mudanca",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "deep",
+      "title": "Desenvolver segmentação, aprendizado profundo e fusão",
+      "low": 40,
+      "high": 64,
+      "phase": "M3",
+      "existing": "",
+      "depends": [
+        "redes",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Cobrir segmentação por regiões e modelos profundos, amostragem espacial, generalização e integração de sensores.",
+        "Entregar baseline pequeno executável sem GPU obrigatória, comparação e análise de falhas."
+      ],
+      "linear": {
+        "key": "deep",
+        "id": "BRU-211",
+        "title": "Desenvolver segmentação, aprendizado profundo e fusão",
+        "url": "https://linear.app/brunommv/issue/BRU-211/desenvolver-segmentacao-aprendizado-profundo-e-fusao",
+        "phase": "M3",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "redes",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "terra",
+      "title": "Produzir aplicações de vegetação, agricultura e cidades",
+      "low": 40,
+      "high": 64,
+      "phase": "M4",
+      "existing": "",
+      "depends": [
+        "supervisionada",
+        "series",
+        "termal"
+      ],
+      "criteria": [
+        "Entregar casos de vegetação/floresta, ciclo agrícola e ambiente urbano com perguntas distintas.",
+        "Documentar dados, método, baseline, referência de avaliação e limites de causalidade de cada caso."
+      ],
+      "linear": {
+        "key": "terra",
+        "id": "BRU-212",
+        "title": "Produzir aplicações de vegetação, agricultura e cidades",
+        "url": "https://linear.app/brunommv/issue/BRU-212/produzir-aplicacoes-de-vegetacao-agricultura-e-cidades",
+        "phase": "M4",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "supervisionada",
+          "series",
+          "termal"
+        ]
+      }
+    },
+    {
+      "key": "agua",
+      "title": "Produzir aplicações de águas continentais, zonas costeiras e oceanos",
+      "low": 40,
+      "high": 64,
+      "phase": "M4",
+      "existing": "",
+      "depends": [
+        "fisica",
+        "hiper",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Entregar casos de água/inundação e de observação costeira/oceânica.",
+        "Tratar mistura de margem, atmosfera e validação; distinguir reflectância observada de variáveis recuperadas."
+      ],
+      "linear": {
+        "key": "agua",
+        "id": "BRU-213",
+        "title": "Produzir aplicações de águas continentais, zonas costeiras e oceanos",
+        "url": "https://linear.app/brunommv/issue/BRU-213/produzir-aplicacoes-de-aguas-continentais-zonas-costeiras-e-oceanos",
+        "phase": "M4",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "fisica",
+          "hiper",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "atmosfera",
+      "title": "Produzir aplicações de atmosfera e clima",
+      "low": 40,
+      "high": 64,
+      "phase": "M4",
+      "existing": "",
+      "depends": [
+        "fisica",
+        "series",
+        "avaliacao"
+      ],
+      "criteria": [
+        "Entregar caso atmosférico e análise climática com cobertura temporal adequada.",
+        "Distinguir coluna/superfície, produto/observação e correlação/causalidade; documentar amostragem e incerteza."
+      ],
+      "linear": {
+        "key": "atmosfera",
+        "id": "BRU-214",
+        "title": "Produzir aplicações de atmosfera e clima",
+        "url": "https://linear.app/brunommv/issue/BRU-214/produzir-aplicacoes-de-atmosfera-e-clima",
+        "phase": "M4",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "fisica",
+          "series",
+          "avaliacao"
+        ]
+      }
+    },
+    {
+      "key": "geologia",
+      "title": "Produzir aplicações de geologia, relevo e desastres",
+      "low": 40,
+      "high": 64,
+      "phase": "M4",
+      "existing": "",
+      "depends": [
+        "sar",
+        "lidar",
+        "hiper"
+      ],
+      "criteria": [
+        "Entregar casos de interpretação geológica/relevo e de monitoramento de desastre.",
+        "Integrar evidências externas e explicitar limites da inferência de materiais e estruturas a partir de imagens."
+      ],
+      "linear": {
+        "key": "geologia",
+        "id": "BRU-215",
+        "title": "Produzir aplicações de geologia, relevo e desastres",
+        "url": "https://linear.app/brunommv/issue/BRU-215/produzir-aplicacoes-de-geologia-relevo-e-desastres",
+        "phase": "M4",
+        "low": 40,
+        "high": 64,
+        "depends": [
+          "sar",
+          "lidar",
+          "hiper"
+        ]
+      }
+    },
+    {
+      "key": "editorial",
+      "title": "Revisar acessibilidade, navegação e material com leitores",
+      "low": 32,
+      "high": 48,
+      "phase": "M5",
+      "existing": "",
+      "depends": [
+        "terra",
+        "agua",
+        "atmosfera",
+        "geologia",
+        "deep",
+        "computacao"
+      ],
+      "criteria": [
+        "Revisar notação, pré-requisitos, texto alternativo de figuras e legibilidade matemática.",
+        "Executar navegação e práticas com leitores de níveis diferentes; registrar dificuldades e corrigir bloqueios de aprendizagem."
+      ],
+      "linear": {
+        "key": "editorial",
+        "id": "BRU-216",
+        "title": "Revisar acessibilidade, navegação e material com leitores",
+        "url": "https://linear.app/brunommv/issue/BRU-216/revisar-acessibilidade-navegacao-e-material-com-leitores",
+        "phase": "M5",
+        "low": 32,
+        "high": 48,
+        "depends": [
+          "terra",
+          "agua",
+          "atmosfera",
+          "geologia",
+          "deep",
+          "computacao"
+        ]
+      }
+    },
+    {
+      "key": "release",
+      "title": "Preparar versão de cobertura ampla e manutenção",
+      "low": 24,
+      "high": 40,
+      "phase": "M5",
+      "existing": "",
+      "depends": [
+        "editorial"
+      ],
+      "criteria": [
+        "Conferir matriz de cobertura, links de fontes, licenças de código/dados e PDFs fora do Git.",
+        "Entregar documentação reproduzível e relatório de validação; preparar publicação para decisão separada, sem publicar/commit/push automaticamente.",
+        "Definir manutenção e atualização sem confundir versão abrangente com esgotamento de todo o conhecimento da área."
+      ],
+      "linear": {
+        "key": "release",
+        "id": "BRU-217",
+        "title": "Preparar versão de cobertura ampla e manutenção",
+        "url": "https://linear.app/brunommv/issue/BRU-217/preparar-versao-de-cobertura-ampla-e-manutencao",
+        "phase": "M5",
+        "low": 24,
+        "high": 40,
+        "depends": [
+          "editorial"
+        ]
+      }
+    }
+  ],
+  "documentoLinear": {
+    "id": "73dff08b-6d8b-4fa2-b3fc-33260508b643",
+    "url": "https://linear.app/brunommv/document/plano-de-desenvolvimento-cobertura-ampla-capacidade-e-criterios-de-01e1d03b3c22"
+  },
+  "verificacaoLinear": {
+    "issuesConferidas": 29,
+    "marcos": 6,
+    "dependenciasSemCiclo": true
+  }
+}

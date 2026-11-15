@@ -1,0 +1,158 @@
+{
+  "pagina_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/apostilas/",
+  "apostilas": [
+    {
+      "titulo_pagina": "Fundamentos de Sensoriamento Remoto",
+      "arquivo": "capitulo_1.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_1.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_1.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 321988,
+      "paginas_pdf": 22,
+      "sha256": "85d9fd33957fef0658a3dcc0c47bbb7a1269cda2e508648441897574bb5fa01e"
+    },
+    {
+      "titulo_pagina": "Satélites de Sensoriamento Remoto",
+      "arquivo": "capitulo_2.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_2.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_2.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 272560,
+      "paginas_pdf": 37,
+      "sha256": "d434c231f7acdf5e23d622cf41ff1ff71ffa567136fa744d7b664fe25bd84f7e"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto no Estudo do Meio Ambiente - Parte A",
+      "arquivo": "capitulo_3.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_3.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_3.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 209821,
+      "paginas_pdf": 20,
+      "sha256": "d7254215e307b3d44a5efaa72e8b3e4816e4b04d9551cc30447454c9e8a615e1"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto no Estudo do Meio Ambiente - Parte B",
+      "arquivo": "cap3-1_martini_b.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/cap3-1_martini_b.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/cap3-1_martini_b.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 105738,
+      "paginas_pdf": 13,
+      "sha256": "77d3b75b76e5bb94292f0879c52cf857e9abe0f9272f1eef1cdf24691e5690b2"
+    },
+    {
+      "titulo_pagina": "Tecnologia Espacial no Estudo de Fenômenos Atmosféricos",
+      "arquivo": "capitulo_4.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_4.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_4.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 1555244,
+      "paginas_pdf": 22,
+      "sha256": "061bd4775ec5c5cde5a0f4a15fc194437e3836e683d00c34866fcb03dbff21b6"
+    },
+    {
+      "titulo_pagina": "Tecnologia Espacial na Previsão do Tempo",
+      "arquivo": "capitulo_5.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_5.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_5.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 924915,
+      "paginas_pdf": 20,
+      "sha256": "baef5986399f2f691894199050061c8f116116ca754cc0b1b088088f341bebd4"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto Aplicado à Oceanografia",
+      "arquivo": "capitulo_6.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_6.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_6.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 581444,
+      "paginas_pdf": 31,
+      "sha256": "98833e4222b58b383e788b91a192ede0099daf6c677947b3a77e40a82a652c88"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto Aplicado aos Estudos Geológicos",
+      "arquivo": "capitulo_7.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_7.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_7.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 96693,
+      "paginas_pdf": 8,
+      "sha256": "dd15fa43947495aa2e1ba11ca3b56dec5f09f1e13b22681e391e34db728919e2"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto no Estudo da Vegetação: Diagnosticando a Mata Atlântica",
+      "arquivo": "capitulo_8.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_8.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_8.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 697529,
+      "paginas_pdf": 27,
+      "sha256": "252bf0c14e79299575a77504c842e4da3f8bc697e8b1079ea53491967ef7c4e9"
+    },
+    {
+      "titulo_pagina": "Sensoriamento Remoto Aplicado á Agricultura",
+      "arquivo": "capitulo_9.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_9.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_9.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 4985331,
+      "paginas_pdf": 19,
+      "sha256": "cd5a75444dbaf46420576961fadd0a7bd5f8acdbf3489977ae7dcc559b24cfaf"
+    },
+    {
+      "titulo_pagina": "Ensinando Cartografia",
+      "arquivo": "capitulo_10.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_10.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_10.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 100571,
+      "paginas_pdf": 15,
+      "sha256": "320a6dc4951c6beb4556336735b6ba7ca21343b3b49033a5613f307a223099b4"
+    },
+    {
+      "titulo_pagina": "Geoprocessamento",
+      "arquivo": "capitulo_11.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_11.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_11.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 159145,
+      "paginas_pdf": 14,
+      "sha256": "ecbe5c24702a9c4d2ee6e2ed2d0ca91d0d3f1e2285f53a00e0f7e0469cdf75ba"
+    },
+    {
+      "titulo_pagina": "Uso Escolar do SR como Recurso Didático e Pedagógico no Estudo do Meio Ambiente",
+      "arquivo": "capitulo_12.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_12.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_12.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 121998,
+      "paginas_pdf": 15,
+      "sha256": "7b6e997641ebb41da40fcf111f53ee50b157a52e3438ce093a0d4e92467a2aa8"
+    },
+    {
+      "titulo_pagina": "Elaboração de Carta Imagem para o Ensino de Sensoriamento Remoto: Projeto EDUCA",
+      "arquivo": "capitulo_13.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_13.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_13.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 369893,
+      "paginas_pdf": 19,
+      "sha256": "5d3d7d790a5191043e42f7d85af6209780f407839ff99761c398f67ddb6ecebc"
+    },
+    {
+      "titulo_pagina": "Orientação de projetos educacionais",
+      "arquivo": "capitulo_14.pdf",
+      "url_origem": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_14.pdf",
+      "url_download": "http://www.dsr.inpe.br/DSR/educacao/uso-escolar-sensoriamento-remoto/material-didatico-anos-anteriores/arquivos/capitulo_14.pdf",
+      "data_download": "2026-11-14",
+      "bytes": 369893,
+      "paginas_pdf": 19,
+      "sha256": "5d3d7d790a5191043e42f7d85af6209780f407839ff99761c398f67ddb6ecebc",
+      "duplicado_de": "capitulo_13.pdf",
+      "observacao": "O título na página não corresponde à capa. O conteúdo é idêntico ao capítulo 13, sobre carta-imagem."
+    }
+  ],
+  "distribuicao": "Somente referências e metadados. PDFs locais são ignorados pelo Git."
+}

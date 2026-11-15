@@ -1,0 +1,118 @@
+{
+  "notebooks": [
+    {
+      "file": "conteudo/analise-de-imagens/estatistica/notebooks/02_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/filtros/notebooks/04_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/transformacoes/notebooks/03_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/agrupamento/notebooks/08_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/redes-e-avaliacao/notebooks/07_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/supervisionada/notebooks/06_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/fundamentos/notebooks/00_primeiro_pixel.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/fundamentos/notebooks/01_pca_propria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/fundamentos/notebooks/01_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/matematica/notebooks/explorar-conceitos.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/pre-processamento/notebooks/05_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/series-temporais/notebooks/09_teoria.ipynb",
+      "status": "ok"
+    },
+    {
+      "file": "projetos/pca-e-agrupamento/notebooks/aplicacao_piloto.ipynb",
+      "status": "ok"
+    }
+  ],
+  "scripts": [
+    {
+      "file": "conteudo/analise-de-imagens/estatistica/exercicios/ex02_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/estatistica/exercicios/ex02_2.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/filtros/exercicios/ex04_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/filtros/exercicios/ex04_2.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/transformacoes/exercicios/ex03_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/transformacoes/exercicios/ex03_2.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/analise-de-imagens/transformacoes/exercicios/ex03_3.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/agrupamento/exercicios/ex08_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/agrupamento/exercicios/ex08_2.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/redes-e-avaliacao/exercicios/ex07_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/classificacao/supervisionada/exercicios/ex06_1.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/pre-processamento/exercicios/ex05_4.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/pre-processamento/exercicios/ex05_viz.py",
+      "status": "ok"
+    },
+    {
+      "file": "conteudo/series-temporais/exercicios/ex09_2.py",
+      "status": "ok"
+    },
+    {
+      "file": "scripts/generate_outputs.py",
+      "status": "ok"
+    }
+  ]
+}

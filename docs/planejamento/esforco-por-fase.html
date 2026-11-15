@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+html,body{background:transparent;color:var(--foreground);font-family:var(--font-sans);margin:0}
+#effort{color:var(--foreground);font-family:var(--font-sans)}
+#effort .muted{color:var(--muted-foreground)}
+#effort .row{display:grid;grid-template-columns:minmax(0,1fr) 100px;gap:8px;margin:16px 0 5px;align-items:baseline}
+#effort .value{text-align:right;font-variant-numeric:tabular-nums}
+#effort .axis{display:flex;justify-content:space-between;margin-top:14px;color:var(--muted-foreground)}
+#effort svg{display:block;width:100%;height:20px}
+#effort .foot{margin-top:14px;color:var(--muted-foreground)}
+</style></head><body>
+<div id="effort">
+<div>Esforço para desenvolver cada fase</div>
+<div class="muted">Estimativa em horas humanas, antes da reserva global de 25%</div>
+<div class="axis" aria-hidden="true"><span>0 h</span><span>120</span><span>240</span><span>360</span><span>480 h</span></div>
+<div class="row"><span>M0 · Base editorial, computacional e matemática</span><span class="value">96–160 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Base editorial, computacional e matemática: estimativa de 96 a 160 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="160" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="96" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="row"><span>M1 · Núcleo de análise de imagens revisado</span><span class="value">164–276 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Núcleo de análise de imagens revisado: estimativa de 164 a 276 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="276" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="164" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="row"><span>M2 · Física, sensores e avaliação</span><span class="value">136–216 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Física, sensores e avaliação: estimativa de 136 a 216 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="216" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="136" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="row"><span>M3 · Especialidades e métodos avançados</span><span class="value">288–480 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Especialidades e métodos avançados: estimativa de 288 a 480 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="480" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="288" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="row"><span>M4 · Aplicações integradas por área</span><span class="value">160–256 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Aplicações integradas por área: estimativa de 160 a 256 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="256" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="160" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="row"><span>M5 · Revisão pública e versão abrangente</span><span class="value">56–88 h</span></div>
+<svg viewBox="0 0 480 20" preserveAspectRatio="none" role="img" aria-label="Revisão pública e versão abrangente: estimativa de 56 a 88 horas">
+<rect x="0" y="3" width="480" height="14" fill="var(--muted)" opacity="0.4"></rect>
+<rect x="0" y="3" width="88" height="14" fill="var(--primary)" opacity="0.25"></rect>
+<rect x="0" y="3" width="56" height="14" fill="var(--primary)" opacity="0.8"></rect>
+</svg>
+<div class="foot">Trecho mais claro: extensão até o cenário de maior esforço. Total-base: 900–1.476 h. Capacidade informada: 5 h/semana de desenvolvimento. Estudo pessoal fica fora destas barras.</div>
+</div></body></html>

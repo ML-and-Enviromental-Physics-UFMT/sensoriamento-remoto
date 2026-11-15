@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor local cache
+.DS_Store
+**/.DS_Store
+.obsidian/
+
+# Temp / backup rasters (keep real chapter data/*.tif)
+*.tif.bak
+*.tif.tmp
+*.tmp
+
+# Optional large generated scratch (keep committed chapter outputs/)
+# Uncomment if needed for local scratch dirs:
+# scratch/
+# tmp/
+
+# PDFs de estudo, públicos ou privados, permanecem apenas no computador
+*.[pP][dD][fF]
+
+# Resultados geoespaciais gerados nos módulos e projetos
+conteudo/**/figuras/*.tif
+projetos/**/figuras/*.tif
+referencias/local/
+
+# Aquisições externas e configurações pessoais não entram na cópia pública
+.env
+.env.*
+!.env.example
+data/exemplos/*
+!data/exemplos/exemplo_sintetico.tif

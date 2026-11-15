@@ -1,0 +1,14 @@
+# Pip fallback for study scripts/notebooks.
+# Prefer conda (environment.yml) when possible — GDAL wheels via pip can be fragile.
+# rasterio is the preferred raster reader; it bundles/uses GDAL bindings without
+# requiring a separate pip install of gdal in most cases.
+
+numpy
+matplotlib
+scipy
+scikit-learn
+opencv-python-headless
+rasterio
+tifffile
+pillow
+jupyter
