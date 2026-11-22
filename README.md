@@ -88,6 +88,6 @@ O [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) organiza a co
 
 ## Licença
 
-Os textos, as figuras e os notebooks próprios deste repositório estão sob [CC BY 4.0](LICENSE): você pode copiar, adaptar e redistribuir, desde que dê o crédito a Bruno Martins e indique as alterações. O código próprio, em `study_utils/`, `scripts/`, `tests/` e nos exercícios, está sob a [licença MIT](LICENSE-CODE).
+Os textos, as figuras e os notebooks próprios deste repositório estão sob [CC BY 4.0](LICENSE): você pode copiar, adaptar e redistribuir, desde que dê o crédito ao Grupo de Pesquisa em Machine Learning e Física Ambiental (PPGFA/UFMT) e indique as alterações. O código próprio, em `study_utils/`, `scripts/`, `tests/` e nos exercícios, está sob a [licença MIT](LICENSE-CODE).
 
 O raster de exemplo é sintético, autoral e distribuído sob CC BY 4.0, como registra o [guia dos dados](data/README.md). As licenças próprias não cobrem os livros, as apostilas ou o software de terceiros indicado nas referências. O ASTER histórico, o código legado e as figuras antigas não acompanham esta cópia pública.
