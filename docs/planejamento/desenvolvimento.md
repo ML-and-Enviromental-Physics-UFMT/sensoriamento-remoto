@@ -2,7 +2,7 @@
 
 Este plano acompanha a produção do recurso educacional. O estudo individual de quem contribui fica fora das issues. A [estimativa de estudo](estimativa-de-estudo.md) trata do esforço de um leitor e não consome automaticamente a capacidade registrada aqui.
 
-Base de planejamento em 14/11/2026. As 29 entregas estão nas [issues do repositório](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), distribuídas em seis [marcos](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/milestones), com dependências registradas em cada issue. O quadro do projeto da organização acompanha status, prioridade e horas estimadas.
+Base de planejamento em 14/11/2026. As 29 entregas estão nas [issues do repositório](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), distribuídas em seis [marcos](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/milestones), com dependências registradas em cada issue. O [quadro do projeto](https://github.com/orgs/ML-and-Enviromental-Physics-UFMT/projects/3) acompanha as 29 issues, com status, prioridade e horas estimadas.
 
 ## O que significa concluir uma versão de cobertura ampla
 
