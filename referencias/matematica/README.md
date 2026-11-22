@@ -28,6 +28,6 @@ Essas páginas foram consultadas em 14/11/2026. São referências online; não f
 
 Os dois PDFs foram baixados para esta pasta e são ignorados pelo Git. Os links acima permitem obtê-los diretamente das instituições. O [manifesto](manifesto.json) registra os metadados e hashes das versões consultadas.
 
-Se a fonte ficar indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/brunomartinsmv/sensoriamento-remoto-python/issues) para solicitar o material. A disponibilidade online não define uma licença para redistribuição.
+Se a fonte ficar indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues) para solicitar o material. A disponibilidade online não define uma licença para redistribuição.
 
 [Voltar ao percurso de matemática](../../conteudo/matematica/README.md).

@@ -4,7 +4,7 @@ Referências aos 15 PDFs vinculados na [página de apostilas do Uso Escolar de S
 
 O [manifesto](manifesto.json) registra as URLs e os metadados das versões consultadas, incluindo número de páginas e SHA-256. Esses hashes documentam a consulta, não representam arquivos incluídos no Git. Não atribuímos um ano único à coleção.
 
-Se um link estiver indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/brunomartinsmv/sensoriamento-remoto-python/issues) para solicitar o envio do material. Informe o título da apostila e o link que falhou.
+Se um link estiver indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues) para solicitar o envio do material. Informe o título da apostila e o link que falhou.
 
 ## Catálogo
 
