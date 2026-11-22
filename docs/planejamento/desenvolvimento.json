@@ -141,7 +141,10 @@
       ],
       "criteria": [
         "Revisar independentemente álgebra linear, probabilidade, estimação, derivadas e otimização desenvolvidas localmente.",
-        "Conferir fontes, símbolos, exercícios, exemplos executáveis e links para aplicações; não tratar redação por IA como revisão independente."
+        "Conferir fontes, símbolos, exercícios, exemplos executáveis e links para aplicações; não tratar redação por IA como revisão independente.",
+        "Expandir os tópicos para leitura de iniciante. Hoje cada um tem de 500 a 600 palavras e funciona como resumo de consulta. Apresentar a intuição antes da definição formal e dar um passo por parágrafo.",
+        "Incluir figuras em todos os tópicos, que hoje não têm nenhuma. Prioridade: vetores e projeções no plano, transformação de uma grade por uma matriz, autovetores como direções que não giram, elipses de covariância e de Mahalanobis, SVD como rotação, escala e rotação, e trajetória do gradiente descendente. Gerar cada figura por script versionado, com texto alternativo.",
+        "Escrever toda fórmula com escapes (`\\\\`, `\\{`, `\\|`, `\\,`, `\\%`) em bloco ```` ```math ```` ou na forma inline com crases, e conferir a página renderizada no GitHub."
       ],
       "issue": {
         "number": 4,
