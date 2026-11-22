@@ -1,6 +1,6 @@
 # Plano de desenvolvimento do repositório
 
-Este plano acompanha a produção do recurso educacional. O estudo pessoal de Bruno fica fora das issues. A [estimativa de estudo](estimativa-de-estudo.md) trata do esforço de um leitor e não consome automaticamente a capacidade registrada aqui.
+Este plano acompanha a produção do recurso educacional. O estudo individual de quem contribui fica fora das issues. A [estimativa de estudo](estimativa-de-estudo.md) trata do esforço de um leitor e não consome automaticamente a capacidade registrada aqui.
 
 Base de planejamento em 14/11/2026. As 29 entregas estão nas [issues do repositório](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), distribuídas em seis [marcos](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/milestones), com dependências registradas em cada issue. O quadro do projeto da organização acompanha status, prioridade e horas estimadas.
 
@@ -27,7 +27,7 @@ Na elaboração inicial deste plano, as mudanças estavam locais, sem commit/pus
 
 ## Capacidade e método da estimativa
 
-Bruno informou **5 horas por semana para desenvolvimento**, separadas do estudo. O calendário assume 46 semanas produtivas por ano, isto é, 230 horas anuais de produção/revisão. Essa margem de calendário cobre semanas sem trabalho; a reserva de esforço abaixo cobre incerteza das tarefas. São fatores distintos.
+O plano considera uma capacidade de **5 horas por semana para desenvolvimento**, separadas do estudo. O calendário assume 46 semanas produtivas por ano, isto é, 230 horas anuais de produção/revisão. Essa margem de calendário cobre semanas sem trabalho; a reserva de esforço abaixo cobre incerteza das tarefas. São fatores distintos.
 
 A estimativa foi feita por pacote de entrega: pesquisa dirigida para produzir o material, redação, exercícios, execução, revisão e documentação. Os intervalos são julgamento inicial, não tempos medidos nem intervalos estatísticos de confiança. Apoio de IA pode acelerar a redação, mas não dispensa revisão de contas, fontes, dados e interpretação.
 
@@ -105,4 +105,4 @@ O arquivo [desenvolvimento.json](desenvolvimento.json) registra pacotes, horas, 
 
 ## Confirmação do horizonte
 
-Bruno confirmou que não há problema com o horizonte de tempo e pediu para manter o planejamento como está. A possibilidade de terminar antes não altera as estimativas-base, a reserva, a capacidade de 5 h/semana nem as datas de referência. Reestimar com evidência de esforço real após as primeiras entregas.
+O horizonte de tempo foi aceito e o planejamento foi mantido como está. A possibilidade de terminar antes não altera as estimativas-base, a reserva, a capacidade de 5 h/semana nem as datas de referência. Reestimar com evidência de esforço real após as primeiras entregas.

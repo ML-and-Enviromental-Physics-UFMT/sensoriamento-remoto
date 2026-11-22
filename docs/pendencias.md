@@ -1,6 +1,6 @@
 # Pendências de desenvolvimento
 
-O acompanhamento operacional está nas [issues do repositório](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), com 29 entregas e seis [marcos](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/milestones). As issues medem produção e revisão de material. Não acompanham leitura nem domínio pessoal de Bruno.
+O acompanhamento operacional está nas [issues do repositório](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), com 29 entregas e seis [marcos](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/milestones). As issues medem produção e revisão de material. Não acompanham leitura nem estudo individual de quem contribui.
 
 O [plano local](planejamento/desenvolvimento.md) registra esforço, dependências, critérios de pronto e hipóteses do calendário. O [arquivo estruturado](planejamento/desenvolvimento.json) espelha a versão inicial do planejamento. Mudanças operacionais precisam ser reconciliadas com essa cópia.
 
