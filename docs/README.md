@@ -10,7 +10,7 @@
 
 - [Verificação da migração](decisoes/2026-11-14-verificacao.md): execuções e limites registrados.
 
-- [Plano de desenvolvimento](planejamento/desenvolvimento.md): entregas do repositório, capacidade de 5 h/semana e acompanhamento no Linear.
+- [Plano de desenvolvimento](planejamento/desenvolvimento.md): entregas do repositório, capacidade de 5 h/semana e acompanhamento nas issues do repositório.
 - [Estimativa de estudo](planejamento/estimativa-de-estudo.md): esforço estimado para um leitor, separado do desenvolvimento.
 
 - [Matemática e planejamento](decisoes/2026-11-14-matematica.md): escopo desenvolvido e verificações desta etapa.

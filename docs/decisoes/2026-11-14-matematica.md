@@ -8,7 +8,7 @@ Foram desenvolvidos 17 tópicos: notação, nove de álgebra linear, quatro de p
 - Foi corrigida uma SVD explícita cujo fator U inicialmente não reconstruía a matriz. A versão corrigida reconstrói o exemplo no script de conferência.
 - O notebook `conteudo/matematica/notebooks/explorar-conceitos.ipynb` executou integralmente. Suas saídas didáticas e duas figuras foram salvas no próprio notebook.
 - As quatro verificações estruturais passaram. Links de Markdown/notebooks/planejamento, blocos de fórmulas e seções de respostas foram conferidos.
-- Os 29 pacotes do Linear foram relidos, incluindo títulos, horas, marco e dependências; as relações corresponderam ao plano e não apresentaram ciclos. Nenhuma issue foi marcada Done nesta operação.
+- Os 29 pacotes do plano foram relidos, incluindo títulos, horas, marco e dependências; as relações corresponderam ao plano e não apresentaram ciclos. Nenhuma issue foi marcada Done nesta operação.
 
 A execução ocorreu no ambiente local da verificação anterior, Python 3.14.4. Não demonstra instalação limpa em Python 3.11, validação científica de métodos nem revisão independente por especialista.
 

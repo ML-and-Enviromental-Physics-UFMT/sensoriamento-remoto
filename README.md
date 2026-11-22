@@ -80,14 +80,14 @@ O [guia do legado](legado/canty/README.md) documenta a fonte oficial, a licença
 
 ## Referências e contribuição
 
-O [catálogo](referencias/README.md) reúne Canty, INPE e os livros de matemática. PDFs públicos ou privados são apenas de consulta local e ficam fora do Git. Se uma fonte estiver indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/brunomartinsmv/sensoriamento-remoto-python/issues) para solicitar o material.
+O [catálogo](referencias/README.md) reúne Canty, INPE e os livros de matemática. PDFs públicos ou privados são apenas de consulta local e ficam fora do Git. Se uma fonte estiver indisponível, abra uma issue no [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues) para solicitar o material.
 
 Para ampliar uma aula, veja [como contribuir](CONTRIBUTING.md). As [pendências](docs/pendencias.md) acompanham o desenvolvimento do material. A [decisão de organização](docs/decisoes/2026-11-14-organizacao.md) registra a migração e a correspondência com a estrutura anterior.
 
-O [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) organiza a cobertura ampla em entregas e marcos no Linear. A [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md) trata do esforço de quem usa o material e fica separada desse plano.
+O [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) organiza a cobertura ampla em entregas e marcos acompanhados nas [issues](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues). A [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md) trata do esforço de quem usa o material e fica separada desse plano.
 
 ## Licença
 
-Os textos, as figuras e os notebooks próprios deste repositório estão sob [CC BY 4.0](LICENSE): você pode copiar, adaptar e redistribuir, desde que dê o crédito a Bruno Martins e indique as alterações. O código próprio, em `study_utils/`, `scripts/`, `tests/` e nos exercícios, está sob a [licença MIT](LICENSE-CODE).
+Os textos, as figuras e os notebooks próprios deste repositório estão sob [CC BY 4.0](LICENSE): você pode copiar, adaptar e redistribuir, desde que dê o crédito ao Grupo de Pesquisa em Machine Learning e Física Ambiental (PPGFA/UFMT) e indique as alterações. O código próprio, em `study_utils/`, `scripts/`, `tests/` e nos exercícios, está sob a [licença MIT](LICENSE-CODE).
 
 O raster de exemplo é sintético, autoral e distribuído sob CC BY 4.0, como registra o [guia dos dados](data/README.md). As licenças próprias não cobrem os livros, as apostilas ou o software de terceiros indicado nas referências. O ASTER histórico, o código legado e as figuras antigas não acompanham esta cópia pública.

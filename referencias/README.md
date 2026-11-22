@@ -28,4 +28,4 @@ Todos os arquivos PDF, públicos ou privados, são ignorados pelo Git em qualque
 
 Para cada nova referência, registre título, autoria e endereço original quando houver. O catálogo deve continuar útil sem uma cópia local do PDF. As referências já usadas nas aulas mantêm as páginas da versão consultada.
 
-Se uma fonte estiver indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/brunomartinsmv/sensoriamento-remoto-python/issues), informando o material, para solicitar seu envio. O envio depende das condições de acesso e uso do material.
+Se uma fonte estiver indisponível, abra uma issue no [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues), informando o material, para solicitar seu envio. O envio depende das condições de acesso e uso do material.

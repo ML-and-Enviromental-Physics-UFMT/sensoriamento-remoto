@@ -1,6 +1,6 @@
 # Estimativa de tempo para estudar
 
-Esta estimativa se refere a quem está começando em sensoriamento remoto e ainda precisa praticar Python e matemática. Não é um planejamento de desenvolvimento, não mede domínio pessoal de Bruno e não cria tarefas de estudo no Linear.
+Esta estimativa se refere a quem está começando em sensoriamento remoto e ainda precisa praticar Python e matemática. Não é um planejamento de desenvolvimento, não mede o domínio individual de quem contribui e não cria tarefas de estudo nas issues.
 
 ## Percurso disponível hoje
 
@@ -33,7 +33,7 @@ Não significa que alguém precisa estudar todas as especialidades para usar o r
 
 ## Tempo semanal de estudo
 
-O calendário depende de horas dedicadas ao estudo, que não foram informadas nesta tarefa. As **5 h/semana confirmadas por Bruno são para desenvolver o repositório**, portanto não as aplicamos automaticamente ao estudo.
+O calendário depende de horas dedicadas ao estudo, que não foram informadas nesta tarefa. As **5 h/semana do plano são para desenvolver o repositório**, portanto não as aplicamos automaticamente ao estudo.
 
 Para converter: semanas ativas de estudo = horas do percurso ÷ horas semanais de estudo. Depois acrescente suas pausas reais. Exemplos de calendário podem ser calculados quando você escolher sua carga de estudo, sem alterar as issues de desenvolvimento.
 
