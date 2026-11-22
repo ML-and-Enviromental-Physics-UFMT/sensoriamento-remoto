@@ -80,7 +80,7 @@ O [guia do legado](legado/canty/README.md) documenta a fonte oficial, a licença
 
 ## Referências e contribuição
 
-O [catálogo](referencias/README.md) reúne Canty, INPE e os livros de matemática. PDFs públicos ou privados são apenas de consulta local e ficam fora do Git. Se uma fonte estiver indisponível, entre em contato com Bruno pelo [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues) para solicitar o material.
+O [catálogo](referencias/README.md) reúne Canty, INPE e os livros de matemática. PDFs públicos ou privados são apenas de consulta local e ficam fora do Git. Se uma fonte estiver indisponível, abra uma issue no [GitHub do projeto](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues) para solicitar o material.
 
 Para ampliar uma aula, veja [como contribuir](CONTRIBUTING.md). As [pendências](docs/pendencias.md) acompanham o desenvolvimento do material. A [decisão de organização](docs/decisoes/2026-11-14-organizacao.md) registra a migração e a correspondência com a estrutura anterior.
 
