@@ -51,4 +51,4 @@ As [apostilas do INPE](referencias/inpe/README.md) sustentam as aulas introdutó
 
 Consulte as [pendências](docs/pendencias.md) para o trabalho a desenvolver. A validação dos métodos com dados reais permanece distinta das demonstrações didáticas.
 
-O esforço estimado do leitor está na [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md). As entregas para ampliar o repositório ficam no [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) e no Linear, sem registrar estudo pessoal.
+O esforço estimado do leitor está na [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md). As entregas para ampliar o repositório ficam no [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) e nas issues do repositório, sem registrar estudo pessoal.

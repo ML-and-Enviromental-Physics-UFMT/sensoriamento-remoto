@@ -84,7 +84,7 @@ O [catálogo](referencias/README.md) reúne Canty, INPE e os livros de matemáti
 
 Para ampliar uma aula, veja [como contribuir](CONTRIBUTING.md). As [pendências](docs/pendencias.md) acompanham o desenvolvimento do material. A [decisão de organização](docs/decisoes/2026-11-14-organizacao.md) registra a migração e a correspondência com a estrutura anterior.
 
-O [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) organiza a cobertura ampla em entregas e marcos no Linear. A [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md) trata do esforço de quem usa o material e fica separada desse plano.
+O [plano de desenvolvimento](docs/planejamento/desenvolvimento.md) organiza a cobertura ampla em entregas e marcos acompanhados nas [issues](https://github.com/ML-and-Enviromental-Physics-UFMT/sensoriamento-remoto/issues). A [estimativa de estudo](docs/planejamento/estimativa-de-estudo.md) trata do esforço de quem usa o material e fica separada desse plano.
 
 ## Licença
 

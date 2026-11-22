@@ -1,6 +1,6 @@
 # Estimativa de tempo para estudar
 
-Esta estimativa se refere a quem está começando em sensoriamento remoto e ainda precisa praticar Python e matemática. Não é um planejamento de desenvolvimento, não mede domínio pessoal de Bruno e não cria tarefas de estudo no Linear.
+Esta estimativa se refere a quem está começando em sensoriamento remoto e ainda precisa praticar Python e matemática. Não é um planejamento de desenvolvimento, não mede domínio pessoal de Bruno e não cria tarefas de estudo nas issues.
 
 ## Percurso disponível hoje
 
