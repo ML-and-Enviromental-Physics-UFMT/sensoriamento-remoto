@@ -37,6 +37,10 @@ A [bibliografia de matemática](referencias/matematica/README.md) inclui *Álgeb
 
 Essas entradas são um mapa de desenvolvimento, não uma declaração de conteúdo concluído. Novos temas podem ser incorporados sem criar uma nova coleção de pastas por livro.
 
+## Plataformas em nuvem
+
+O percurso [Google Earth Engine](conteudo/google-earth-engine/README.md) oferece uma linha prática paralela e opcional em Python (`earthengine-api` e `geemap`), da configuração do projeto no Google Cloud até séries temporais, exportação e classificação. Ele não substitui o núcleo local nem exige conta externa para estudar o restante da trilha.
+
 ## Como avançar sem tornar a leitura pesada
 
 Leia uma seção curta, faça uma previsão e execute um exemplo pequeno. Depois altere uma condição e explique o efeito. Use o [diário](docs/modelo-diario.md) para registrar sua explicação e localizar a dúvida. O [guia de estudo](docs/como-estudar.md) detalha esse ciclo.
