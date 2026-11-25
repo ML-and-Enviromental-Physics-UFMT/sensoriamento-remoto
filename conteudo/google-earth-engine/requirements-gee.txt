@@ -1,0 +1,8 @@
+# Dependências opcionais para o percurso de Google Earth Engine em Python.
+# Instale em um ambiente separado ou sobre o ambiente base do repositório.
+
+earthengine-api
+geemap
+jupyter
+pandas
+matplotlib

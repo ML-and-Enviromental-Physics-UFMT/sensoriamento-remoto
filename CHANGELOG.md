@@ -8,6 +8,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 ## [Unreleased]
 
 ### Added
+- Percurso passo a passo de Google Earth Engine em Python (`conteudo/google-earth-engine/`), com seis aulas, três notebooks práticos e dependências opcionais isoladas (entrega parcial relacionada à issue #17).
 - Entrada em português para iniciantes, com seis leituras de fundamentos, prática de pixels simulados e diário de aprendizagem.
 - Matemática por tópicos: 17 explicações com exemplos resolvidos, exercícios comentados, notebook de experimentos e script de conferência.
 - Catálogos de referências do INPE e de álgebra linear com links de origem e metadados, sem distribuir os PDFs.
