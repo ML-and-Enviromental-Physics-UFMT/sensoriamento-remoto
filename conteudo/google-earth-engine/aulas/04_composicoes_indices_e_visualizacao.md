@@ -34,13 +34,17 @@ nbr = composta.normalizedDifference(["B8", "B12"]).rename("NBR")
 Dois cuidados técnicos essenciais aqui:
 
 1. **Ordem e definição das bandas:** `["B8", "B4"]` calcula `(B8 - B4) / (B8 + B4)`. No caso do NDWI, `(B3 - B8) / (B3 + B8)` (verde e NIR) é o **NDWI de McFeeters (1996)**, voltado a destacar corpos d'água superficiais; ele é diferente do **NDWI de Gao (1996)** (`(B8 - B11) / (B8 + B11)`, NIR e SWIR), usado para avaliar conteúdo de água na vegetação.
-2. **Entradas negativas são mascaradas:** conforme a documentação do GEE, `normalizedDifference` descarta automaticamente qualquer pixel onde uma das duas bandas de entrada seja negativa. Em produtos com offset aditivo como Landsat Collection 2 Level-2, água muito escura ou sombras podem gerar reflectâncias levemente negativas; com `normalizedDifference`, esses pixels somem (e `sampleRegions` descarta as amostras correspondentes). Quando isso ocorrer, prefira `.expression()` com proteção contra denominador zero:
+2. **Entradas negativas são mascaradas:** conforme a documentação do GEE, `normalizedDifference` descarta automaticamente qualquer pixel onde uma das duas bandas de entrada seja negativa. Em produtos com offset aditivo como Landsat Collection 2 Level-2, água muito escura ou sombras podem gerar reflectâncias levemente negativas; com `normalizedDifference`, esses pixels somem (e `sampleRegions` descarta as amostras correspondentes). Quando isso ocorrer, prefira `.expression()` combinada com uma máscara explícita de denominador não nulo (no Earth Engine, a divisão por zero retorna `0` silenciosamente, produzindo um NDVI falso em vez de mascarar o pixel):
 
 ```python
-ndvi_expr = composta.expression(
-    "(NIR - RED) / (NIR + RED)",
-    {"NIR": composta.select("B8"), "RED": composta.select("B4")},
-).rename("NDVI")
+nir = composta.select("B8")
+red = composta.select("B4")
+denominador = nir.add(red)
+ndvi_expr = (
+    composta.expression("(NIR - RED) / (NIR + RED)", {"NIR": nir, "RED": red})
+    .updateMask(denominador.abs().gt(1e-6))
+    .rename("NDVI")
+)
 ```
 
 ### Fórmulas gerais com `expression`
