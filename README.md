@@ -23,7 +23,7 @@ O [guia de estudo](docs/como-estudar.md) sugere sessões curtas. O [modelo de di
 | [Análise de imagens](conteudo/analise-de-imagens/README.md) | Estatística, transformações e filtros |
 | [Classificação](conteudo/classificacao/README.md) | Métodos supervisionados, redes, agrupamento e avaliação |
 | [Séries temporais e mudança](conteudo/series-temporais/README.md) | Núcleo bitemporal disponível; séries densas a desenvolver |
-| [Google Earth Engine](conteudo/google-earth-engine/README.md) | Percurso opcional passo a passo em Python (`earthengine-api` e `geemap`), com seis aulas e três notebooks; exige conta Google/Cloud e ainda pende execução dos notebooks no servidor |
+| [Google Earth Engine](conteudo/google-earth-engine/README.md) | Percurso opcional passo a passo em Python (`earthengine-api` e `geemap`), com seis aulas e três notebooks testados no servidor; exige conta Google/Cloud |
 | [Radar e SAR](conteudo/radar-sar/README.md) | Nota introdutória; percurso completo a desenvolver |
 | [LiDAR](conteudo/lidar/README.md) | Frente a desenvolver |
 | [Hiperespectral](conteudo/hiperespectral/README.md) | Frente a desenvolver |

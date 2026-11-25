@@ -8,8 +8,8 @@ Ele funciona como uma linha prática paralela à trilha principal do repositóri
 
 - Escopo inicial: somente API Python (`earthengine-api` e `geemap`). O Code Editor em JavaScript não faz parte desta etapa.
 - Conteúdo disponível: seis aulas graduais em `aulas/` e três notebooks práticos em `notebooks/`.
-- Verificação realizada até o momento: sintaxe Python dos notebooks, links internos, testes estruturais e auditoria de publicação conferidos; coordenadas e alvos dos polígonos nos notebooks 2 e 3 conferidos sobre cenas públicas Sentinel-2 L2A de 2024.
-- Limite explícito de verificação: **os três notebooks ainda não foram executados ponta a ponta contra o servidor do Google Earth Engine**, pois a execução exige autenticação interativa com conta Google pessoal e projeto registrado no Google Cloud. Os polígonos usados no notebook 3 são didáticos e não substituem amostragem probabilística ou validação de campo.
+- Verificação realizada em 25/11/2026: todos os três notebooks executaram ponta a ponta contra o servidor do Google Earth Engine em Python 3.11.18 (`earthengine-api` 1.7.53, `geemap` 0.37.2), mantendo os arquivos do repositório sem saídas embutidas; links internos, 6/6 testes estruturais/publicação e auditoria de publicação conferidos; coordenadas dos polígonos dos notebooks 2 e 3 conferidas sobre cenas públicas Sentinel-2 L2A de 2024.
+- Limites explícitos: executar os notebooks exige conexão com a internet, conta Google pessoal e projeto registrado no Google Cloud; as chamadas `.start()` de exportação para o Google Drive permanecem comentadas nos exemplos; os polígonos usados no notebook 3 são didáticos e não substituem amostragem probabilística ou validação de campo.
 
 ## Pré-requisitos
 
